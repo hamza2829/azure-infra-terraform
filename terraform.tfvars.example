@@ -1,0 +1,9 @@
+project             = "azdemo"
+env                 = "dev"
+owner               = "example-team"
+cost_center         = "sandbox"
+instance            = "001"
+unique_suffix       = "demo01"
+management_ssh_cidr = "10.42.2.4/32"
+# Replace with your own PUBLIC key if you later evaluate a plan separately.
+ssh_public_key = "ssh-rsa REPLACE_WITH_YOUR_PUBLIC_KEY"
